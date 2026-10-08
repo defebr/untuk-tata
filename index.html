@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untuk Tata 🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<!-- LOCK SCREEN -->
+<main id="lock" class="lock">
+  <div class="lock-card">
+    <div class="gift" aria-hidden="true">🎁</div>
+    <h1>Ada kejutan buat kamu</h1>
+    <p id="lockInfo" class="info"></p>
+    <div id="countdown" class="countdown" hidden></div>
+    <form id="form" hidden>
+      <label for="kunci">Masukkan kata kunci</label>
+      <input id="kunci" type="password" autocomplete="off" placeholder="ketik di sini…">
+      <button type="submit">Buka kejutan</button>
+      <p id="error" class="error" role="alert"></p>
+    </form>
+  </div>
+</main>
+
+<!-- ISI WEBSITE -->
+<div id="content" hidden>
+  <section class="section memory">
+    <h3>Kenangan kita 💞</h3>
+    <div class="stage">
+      <video id="vid" playsinline controls preload="auto"></video>
+      <div id="slides" class="slides" hidden></div>
+      <button id="unmute" type="button" hidden>🔊 Nyalakan suara</button>
+    </div>
+  </section>
+
+  <header class="hero">
+    <p class="hero-small">12 Oktober 2026</p>
+    <h2>Selamat ulang tahun,<br>Tata! 🎂</h2>
+    <p class="hero-sub">Halaman kecil ini isinya semua yang pengen aku bilang ke kamu.</p>
+  </header>
+
+  <section class="section">
+    <h3>Ucapan buat kamu</h3>
+    <div id="messages" class="messages"></div>
+  </section>
+
+  <section class="section">
+    <h3>Foto-foto lucu kamu</h3>
+    <div id="gallery" class="gallery"></div>
+  </section>
+
+  <footer class="closing">
+    <p id="closing"></p>
+    <button id="again" type="button">Hujan confetti lagi 🎉</button>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
