@@ -25,7 +25,7 @@ const FOTO = [
   { src: "foto/foto1.jpeg", caption: "Lucu banget 💗" },
   { src: "foto/foto2.jpeg", caption: "Ini favoritku" },
   { src: "foto/foto3.jpeg", caption: "Senyum yang bikin gemes" },
-  { src: "foto/foto4.jpeg", caption: "Imutnya kebangetan" },
+  { src: "foto/foto4.jpg", caption: "Imutnya kebangetan" },
   { src: "foto/foto5.jpeg", caption: "Kenangan kita 💕" },
   { src: "foto/foto6.jpeg", caption: "Tata mode on" },
 ];
