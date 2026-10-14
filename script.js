@@ -6,10 +6,10 @@ const KUNCI_HASH = "6a95e946a1b2a46e12a3c7da10ffaf099d9a0313ee3bda08d0b2d72feac8
 
 // Website cuma bisa dibuka di tanggal ini (waktu WIB / +07:00)
 const BUKA_MULAI  = new Date("2026-10-12T00:00:00+07:00");
-const BUKA_SAMPAI = new Date("2026-10-13T00:00:00+07:00");
+const BUKA_SAMPAI = new Date("2027-10-13T00:00:00+07:00");
 // true  = setelah 12 Oktober tetap bisa dibuka (buat dikenang lagi)
 // false = cuma bisa dibuka tepat tanggal 12 Oktober
-const BOLEH_SETELAHNYA = TRUE;
+const BOLEH_SETELAHNYA = FALSE;
 
 // Ucapan — tambah/ubah/hapus sesukamu
 const UCAPAN = [
