@@ -9,7 +9,7 @@ const BUKA_MULAI  = new Date("2026-10-12T00:00:00+07:00");
 const BUKA_SAMPAI = new Date("2026-10-13T00:00:00+07:00");
 // true  = setelah 12 Oktober tetap bisa dibuka (buat dikenang lagi)
 // false = cuma bisa dibuka tepat tanggal 12 Oktober
-const BOLEH_SETELAHNYA = false;
+const BOLEH_SETELAHNYA = TRUE;
 
 // Ucapan — tambah/ubah/hapus sesukamu
 const UCAPAN = [
